@@ -1,0 +1,15 @@
+$primary-color:#3498db;
+$secondary-color: #2ecc71;
+$font-stack: helvetica, arial, sans-serif;
+$base-padding: 10px;
+$base-margin: 10px;
+
+@mixin flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: $primary-color;
+}

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6f4e37;
+}
+.logo img{
+    width: 100px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.main{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBIDjc0kAxxseNAsMKypumCVLr7UwHt6FZ-Q&s');
+    background-size: cover;
+    background-position: center;
+    padding: 105px 50px;
+    margin-top: 2px;
+    text-align: center;
+    color:white;
+}
+.main h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.main button{
+    padding: 10px 20px;
+    background-color: hsl(25, 75%, 47%);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+.main button:hover{
+    background-color: #8b4513;
+}
+.about h2{
+    margin-bottom: 20px;
+}
+
+/*Section styling for menu, about, contact*/
+.menu, .about, .contact{
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.menu h1, .about h1, .contact h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+} 
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu li{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.contact label{
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.contact input, .contact textarea{
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    padding:10px;
+    background-color: #d2691e;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+}
+.contact button:hover{
+    background-color: #8b4513;
+}
+/*
+
+.about{
+    padding: 20px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}*/
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
