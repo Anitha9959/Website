@@ -1,0 +1,38 @@
+☕ Coffee Website
+
+🌟 Overview
+
+This is a Coffee Shop Website designed to showcase coffee products, menu, and store locations. The website provides an elegant and responsive user experience with modern web technologies.
+
+🔹 Features
+
+Home Page: Welcomes visitors with a stunning coffee-themed design.
+
+About Section: Tells the story behind the coffee shop.
+
+Menu Page: Displays coffee varieties with descriptions and prices.
+
+Contact Page: Allows customers to get in touch.
+
+Responsive Design: Works seamlessly on desktops, tablets, and mobile devices.
+
+🛠️ Technologies Used
+
+HTML - Structure of the website
+
+CSS - Styling and layout
+
+JavaScript - Interactivity and animations
+
+Bootstrap (Optional) - For responsive design
+
+
+Open the index.html file in your browser.
+
+🎨 Customization
+
+Modify styles.css to change colors, fonts, and layouts.
+
+Update index.html with your own content and branding.
+
+Enhance interactivity using script.js.
